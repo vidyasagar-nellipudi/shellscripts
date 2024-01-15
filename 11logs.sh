@@ -10,7 +10,7 @@ TIMESTAMP=$(date +%F-%H-%M-%S)
 
 LOG="/tmp/$0-$TIMESTAMP.log"
 
-echo " script started executing at $TIMESTAMP "
+echo " script started executing at $TIMESTAMP " &>> $LOG
 
 VALIDATE(){
     if [ $1 -gt 0 ]
