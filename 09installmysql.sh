@@ -7,3 +7,4 @@ then
     echo "ERROR: Please run with root user"
 else
     echo "you are root user"
+fi
